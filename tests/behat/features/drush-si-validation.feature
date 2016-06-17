@@ -1,8 +1,8 @@
 @javascript
-Feature: drush site-install validation
+Feature: Drush site-install validation
   In order to prove Drupal 7 was installed properly
   As a developer
-  I need to user the step definitions of this context
+  I need to check that the site is responding as expected
 
   Scenario: Open home page and find text
     Given I am on the homepage
